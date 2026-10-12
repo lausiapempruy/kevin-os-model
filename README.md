@@ -1,8 +1,16 @@
-# Kevin OS Model
+<p align="center">
+  <img src="assets/logo.svg" alt="Kevin OS Model Logo" width="120"/>
+</p>
 
-**Kevin Open Source Model** — Kumpulan skill open source yang bisa dipakai di AI (Claude & Grok).
+<h1 align="center">Kevin OS Model</h1>
 
-> Dibuat & di-maintain oleh **Kevin** (`@lausiapempruy`)
+<p align="center">
+  <strong>Kevin Open Source Model</strong> — Kumpulan skill open source yang bisa dipakai di AI (Claude & Grok).
+</p>
+
+<p align="center">
+  Dibuat & di-maintain oleh <strong>Kevin</strong> (<code>@lausiapempruy</code>)
+</p>
 
 ---
 
@@ -69,5 +77,7 @@ MIT License — bebas dipakai, dimodifikasi, dan didistribusikan.
 
 ---
 
-**Kevin OS Model**  
-Open Source Skills for the next generation of AI.
+<p align="center">
+  <strong>Kevin OS Model</strong><br/>
+  Open Source Skills for the next generation of AI.
+</p>
