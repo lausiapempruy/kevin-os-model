@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Kevin OS Model" width="100%"/>
+  <img src="https://raw.githubusercontent.com/lausiapempruy/kevin-os-model/main/assets/banner.svg" alt="Kevin OS Model" width="100%"/>
 </p>
 
 <p align="center">
