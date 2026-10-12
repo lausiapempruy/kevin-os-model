@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="200" fill="url(#bg)"/>
+  
+  <!-- Geometric accent line -->
+  <rect x="0" y="0" width="8" height="200" fill="#818cf8"/>
+  
+  <!-- Title -->
+  <text x="48" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white">Kevin OS Model</text>
+  <text x="48" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#a5b4fc">Open source skills for Claude & Grok</text>
+  
+  <!-- Small K mark -->
+  <g transform="translate(700, 60)">
+    <rect width="60" height="60" rx="4" fill="#4f46e5"/>
+    <path d="M18 12 L18 48 M18 30 L42 12 M18 30 L42 48" stroke="white" stroke-width="5" stroke-linecap="square" fill="none"/>
+  </g>
+</svg>
