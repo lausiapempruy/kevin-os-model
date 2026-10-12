@@ -1,83 +1,82 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Kevin OS Model Logo" width="120"/>
-</p>
-
-<h1 align="center">Kevin OS Model</h1>
-
-<p align="center">
-  <strong>Kevin Open Source Model</strong> — Kumpulan skill open source yang bisa dipakai di AI (Claude & Grok).
+  <img src="assets/banner.svg" alt="Kevin OS Model" width="100%"/>
 </p>
 
 <p align="center">
-  Dibuat & di-maintain oleh <strong>Kevin</strong> (<code>@lausiapempruy</code>)
+  <img src="assets/logo.svg" alt="Logo" width="80"/>
+</p>
+
+<p align="center">
+  <strong>Kevin OS Model</strong><br/>
+  Open source skills for Claude & Grok<br/>
+  Maintained by <strong>Kevin</strong> (<code>@lausiapempruy</code>)
 </p>
 
 ---
 
-## Apa ini?
+## What is this?
 
-`kevin-os-model` adalah repository skill modular yang dirancang khusus agar bisa langsung dipakai di:
+A collection of modular skills built specifically for **Claude** and **Grok**.
 
-- **Claude** (via Projects / Custom Instructions / Artifacts)
-- **Grok** (via system prompt / connector / custom tools)
+Each skill is self-contained. Copy the `SKILL.md`, drop it into your system prompt / project instructions, and it works.
 
-Setiap skill berdiri sendiri, mudah di-copy, dan bisa digabung sesuai kebutuhan.
+No frameworks. No bloat. Just clear instructions that change how the model behaves.
 
 ---
 
-## Struktur Repository
+## Available Skills
+
+| Skill | What it does | Status |
+|-------|--------------|--------|
+| [anti-web-slop](skills/anti-web-slop/) | Blocks AI-generated and generic web design patterns. 100-point checklist. | Ready |
+
+---
+
+## How to use
+
+**Grok**  
+Copy the content of any `SKILL.md` into your system prompt or custom instructions.
+
+**Claude**  
+Create a Project → paste the `SKILL.md` as Custom Instruction or Knowledge.
+
+That’s it.
+
+---
+
+## Repository structure
 
 ```
 kevin-os-model/
-├── skills/                  # Semua skill disimpan di sini
-│   └── (skill-name)/
-│       ├── SKILL.md         # Instruksi utama skill
-│       └── ...              # File pendukung (opsional)
-├── assets/                  # Logo, icon, dll
-├── LICENSE
+├── assets/               # Logos, icons, banners (SVG)
+├── skills/
+│   └── anti-web-slop/
+│       ├── SKILL.md
+│       └── references/
+│           ├── ai-slop.md
+│           └── generic-slop.md
 ├── CONTRIBUTING.md
+├── LICENSE
 └── README.md
 ```
 
 ---
 
-## Cara Pakai
+## Contributing
 
-### Untuk Grok
-1. Copy isi file `SKILL.md` dari skill yang diinginkan
-2. Paste ke system prompt / custom instruction
-3. Atau gunakan langsung lewat connector
+Want to add a skill? Read [CONTRIBUTING.md](CONTRIBUTING.md).
 
-### Untuk Claude
-1. Buat Project baru di Claude
-2. Upload atau paste isi `SKILL.md` sebagai Custom Instruction / Knowledge
-3. Aktifkan skill sesuai kebutuhan
+Keep it specific. Keep it useful. Avoid vague “AI assistant” fluff.
 
 ---
 
-## Skill yang Tersedia
+## License
 
-| Skill | Deskripsi | Status |
-|-------|-----------|--------|
-| [anti-web-slop](skills/anti-web-slop/) | Enforce zero AI-generated & generic web design slop. Strict filter untuk website, landing page, UI, dashboard. | ✅ Ready |
-
----
-
-## Kontribusi
-
-Mau nambah skill baru? Baca dulu [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Pull request sangat diterima!
-
----
-
-## Lisensi
-
-MIT License — bebas dipakai, dimodifikasi, dan didistribusikan.
+MIT
 
 ---
 
 <p align="center">
-  <strong>Kevin OS Model</strong><br/>
-  Open Source Skills for the next generation of AI.
+  <img src="assets/favicon.svg" width="24" alt=""/>
+  &nbsp;Kevin OS Model
 </p>
