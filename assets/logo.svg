@@ -1,23 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    <linearGradient id="kGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
     </linearGradient>
   </defs>
   
-  <!-- Background circle -->
-  <circle cx="100" cy="100" r="90" fill="url(#grad)"/>
+  <!-- Sharp square background instead of soft circle -->
+  <rect x="12" y="12" width="176" height="176" rx="8" fill="url(#kGrad)"/>
   
-  <!-- Inner ring -->
-  <circle cx="100" cy="100" r="70" fill="none" stroke="white" stroke-width="3" opacity="0.3"/>
+  <!-- Inner border for depth -->
+  <rect x="24" y="24" width="152" height="152" rx="4" fill="none" stroke="white" stroke-width="2" opacity="0.25"/>
   
-  <!-- K letter stylized -->
-  <path d="M60 50 L60 150 M60 100 L110 50 M60 100 L110 150" 
-        stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Bold K letter – geometric, high contrast -->
+  <path d="M58 48 L58 152 M58 100 L118 48 M58 100 L118 152" 
+        stroke="white" stroke-width="14" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
   
-  <!-- Small accent dots -->
-  <circle cx="140" cy="70" r="6" fill="white" opacity="0.9"/>
-  <circle cx="155" cy="95" r="4" fill="white" opacity="0.7"/>
-  <circle cx="145" cy="120" r="5" fill="white" opacity="0.8"/>
+  <!-- Accent mark (small sharp triangle) -->
+  <polygon points="145,55 160,70 145,85" fill="white" opacity="0.9"/>
 </svg>
