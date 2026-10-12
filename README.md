@@ -26,9 +26,9 @@ No frameworks. No bloat. Just clear instructions that change how the model behav
 
 ## Available Skills
 
-| Skill | What it does | Status |
-|-------|--------------|--------|
-| [anti-web-slop](skills/anti-web-slop/) | Blocks AI-generated and generic web design patterns. 100-point checklist. | Ready |
+| | Skill | What it does | Status |
+|---|-------|--------------|--------|
+| <img src="assets/icon-anti-web-slop.svg" width="28"/> | [anti-web-slop](skills/anti-web-slop/) | Blocks AI-generated and generic web design patterns. 100-point checklist. | Ready |
 
 ---
 
@@ -52,6 +52,7 @@ kevin-os-model/
 ├── skills/
 │   └── anti-web-slop/
 │       ├── SKILL.md
+│       ├── icon.svg
 │       └── references/
 │           ├── ai-slop.md
 │           └── generic-slop.md
