@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#grad)"/>
+  
+  <!-- Inner ring -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="white" stroke-width="3" opacity="0.3"/>
+  
+  <!-- K letter stylized -->
+  <path d="M60 50 L60 150 M60 100 L110 50 M60 100 L110 150" 
+        stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Small accent dots -->
+  <circle cx="140" cy="70" r="6" fill="white" opacity="0.9"/>
+  <circle cx="155" cy="95" r="4" fill="white" opacity="0.7"/>
+  <circle cx="145" cy="120" r="5" fill="white" opacity="0.8"/>
+</svg>
