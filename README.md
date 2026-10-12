@@ -59,7 +59,7 @@ kevin-os-model/
 
 | Skill | Deskripsi | Status |
 |-------|-----------|--------|
-| *Coming soon* | - | - |
+| [anti-web-slop](skills/anti-web-slop/) | Enforce zero AI-generated & generic web design slop. Strict filter untuk website, landing page, UI, dashboard. | ✅ Ready |
 
 ---
 
