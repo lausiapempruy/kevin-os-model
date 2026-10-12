@@ -1,42 +1,40 @@
-# Contributing to Kevin OS Model
+# Contributing
 
-Terima kasih sudah mau berkontribusi!
+## Adding a new skill
 
-## Cara Menambah Skill Baru
+1. Create a folder under `skills/` using kebab-case  
+   Example: `skills/code-reviewer/`
 
-1. Buat folder baru di dalam `skills/` dengan nama skill (pakai kebab-case)
-   Contoh: `skills/code-reviewer/`
-
-2. Di dalam folder tersebut buat file `SKILL.md` dengan format:
+2. Add a `SKILL.md` with this structure:
 
 ```markdown
-# Nama Skill
+---
+name: skill-name
+description: One clear sentence about what it does and when to use it.
+---
 
-## Deskripsi singkat
+# Skill Name
 
-## Cara pakai
+## What it does
 
-## Instruksi lengkap untuk AI
+## When to activate
 
-(isi prompt / system instruction di sini)
+## Instructions for the model
+
+(the actual system prompt / rules)
 ```
 
-3. (Opsional) Tambahkan file pendukung seperti contoh, template, atau assets.
+3. Optional: add supporting files inside the skill folder (examples, checklists, references).
 
-4. Update tabel skill di `README.md`.
+4. Update the skill table in the root `README.md`.
 
-5. Buat Pull Request dengan deskripsi yang jelas.
+5. Open a pull request. Describe the skill and why it is useful.
 
-## Aturan
+## Rules
 
-- Skill harus jelas, spesifik, dan mudah dipahami AI
-- Hindari skill yang terlalu generik
-- Sertakan contoh penggunaan jika memungkinkan
-- Gunakan bahasa Indonesia atau Inggris (konsisten dalam 1 skill)
+- Be specific. Vague “helpful AI” skills will be rejected.
+- Prefer short, enforceable rules over long essays.
+- If the skill includes visual or design guidance, follow the same anti-slop standards used in this repository.
+- Language can be Indonesian or English — stay consistent inside one skill.
 
-## Pull Request
-
-- Judul PR harus deskriptif
-- Jelaskan skill apa yang ditambahkan dan kenapa berguna
-
-Terima kasih!
+That’s all.
