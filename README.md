@@ -1,87 +1,38 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lausiapempruy/kevin-os-model/main/assets/banner.svg" alt="Kevin OS Model" width="100%"/>
-</p>
+# Kevin OS Model
 
-<h1 align="center">Kevin OS Model</h1>
+An open, growing collection of reusable instructions, workflows, and resources for working with AI models.
 
-<p align="center">
-  An open collection of reusable instructions, workflows, and model resources.
-  <br/>
-  Built by Kevin. Open to community contributions.
-</p>
+The project is designed to be **provider-agnostic**: resources should be useful with any model that can understand the relevant instructions or file format. Actual support depends on the model, product, interface, context limits, and import mechanism. No single repository format can guarantee native installation or identical behavior across every AI product.
 
-<p align="center">
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-222222.svg"></a>
-  <a href="https://github.com/lausiapempruy/kevin-os-model/issues"><img alt="Issues" src="https://img.shields.io/github/issues/lausiapempruy/kevin-os-model"></a>
-  <a href="https://github.com/lausiapempruy/kevin-os-model/pulls"><img alt="Pull requests" src="https://img.shields.io/github/issues-pr/lausiapempruy/kevin-os-model"></a>
-  <a href="https://github.com/lausiapempruy/kevin-os-model/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/lausiapempruy/kevin-os-model"></a>
-</p>
+## First resource: anti-slop-text
 
----
+`anti-slop-text` is a portable writing workflow for reducing generic, repetitive, inflated, and formulaic writing while preserving meaning, evidence, and the writer's voice.
 
-## About
+- [Open the skill](anti-slop-text/SKILL.md)
+- [Patterns reference](anti-slop-text/references/patterns.md)
+- [Review checklist](anti-slop-text/references/review-checklist.md)
+- [Examples](anti-slop-text/references/examples.md)
+- [Evaluation cases](anti-slop-text/evals/evaluation-cases.md)
 
-Kevin OS Model is a public repository for sharing practical resources that help people work with AI models. The long-term goal is to support resources for **ChatGPT, Claude, Grok, and other compatible tools** without tying the project to one provider.
+## Using the resource
 
-This repository is a home for the collection, not a promise that every resource works identically in every model. Models, product features, context limits, and import formats change. Each resource should explain what it is, how to use it, and any known limitations.
+The skill uses the open Agent Skills-style `SKILL.md` format. AI tools that support this format can load it as a skill. Other models can use it by receiving the file contents as instructions, if their interface allows that. A folder containing `SKILL.md` is not automatically installable in every chat app.
 
-**The collection is currently being reset and organized.** Individual skills and model-specific resources have intentionally been removed for now. New additions will be published as they are prepared and tested.
+1. Open the skill folder and read `SKILL.md`.
+2. Follow the installation method documented by your chosen AI tool, if it supports skills.
+3. If native skill installation is unavailable, provide the instructions as context or adapt them to that product's custom-instructions feature.
+4. Test the resource on real examples and report reproducible issues.
 
-## What's here?
+## Compatibility and honest claims
 
-- **Resources** — reusable prompts, instructions, workflows, and supporting references as they are added.
-- **Documentation** — project conventions, contribution guidance, and practical usage notes.
-- **Community process** — issues and pull requests for reporting problems, proposing resources, and improving existing material.
+This project aims for broad portability, not a universal guarantee. A resource is not described as "working on every AI" unless that claim can be tested meaningfully across a defined set of models and versions. Model outputs vary, and a prompt cannot override a model's system rules or product limitations.
 
-There are no published skills in this initial baseline. Check the repository again as the collection grows.
-
-## Using a resource
-
-Every resource may have different setup requirements. Follow the instructions included with that resource and check whether it targets a particular model or feature.
-
-General guidance:
-
-1. Open the resource's directory and read its documentation first.
-2. Check the stated model compatibility and requirements.
-3. Copy or import only the files and instructions that the resource asks you to use.
-4. Test it on a representative task before relying on it.
-5. Report unclear instructions or reproducible problems through [GitHub Issues](https://github.com/lausiapempruy/kevin-os-model/issues).
-
-Do not assume that a prompt or instruction can override a model's system rules, product restrictions, or safety requirements.
-
-## Project principles
-
-- **Useful over impressive.** Include concrete instructions, examples, and boundaries.
-- **Honest compatibility.** Never claim a resource is tested on a model or platform unless it actually has been tested.
-- **Portable where possible.** Avoid unnecessary dependencies on a single provider.
-- **Readable by default.** Use clear Markdown and a predictable folder structure.
-- **Maintainable.** Keep each resource focused, versionable, and easy to review.
-- **Open by design.** Explain licensing, attribution, setup, and limitations.
+Likewise, anti-slop-text does not promise "100% anti-slop" or guaranteed passage through AI-writing detectors. Text quality is subjective and context-dependent, and detectors can misclassify both human and AI-assisted writing. The skill focuses on editorial quality, specificity, factual accuracy, and preserving the author's real voice.
 
 ## Contributing
 
-Contributions are welcome, including new resources, fixes, examples, compatibility notes, and documentation improvements.
+New resources are welcome. Keep them focused, document prerequisites and limitations, include examples or evaluation cases where useful, and do not claim testing that did not happen. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Before opening a pull request, read [CONTRIBUTING.md](CONTRIBUTING.md). For bugs or ideas, use [GitHub Issues](https://github.com/lausiapempruy/kevin-os-model/issues).
+## License
 
-Please do not submit secrets, private data, copied material without permission, or claims of testing that did not happen.
-
-## Project documentation
-
-- [Contributing guide](CONTRIBUTING.md)
-- [Code of conduct](CODE_OF_CONDUCT.md)
-- [Security policy](SECURITY.md)
-- [Support and questions](SUPPORT.md)
-- [License](LICENSE)
-
-## Ownership and license
-
-Maintained by **Kevin** ([`@lausiapempruy`](https://github.com/lausiapempruy)). The repository is licensed under the [MIT License](LICENSE), unless a specific file or directory states otherwise.
-
-The name “Kevin OS Model” is a project name; it does not imply affiliation with OpenAI, Anthropic, xAI, or any model provider. ChatGPT, Claude, and Grok are product names owned by their respective holders.
-
----
-
-<p align="center">
-  <sub>Small, useful building blocks for working with AI.</sub>
-</p>
+The repository uses the [MIT License](LICENSE) unless a resource includes a more specific notice.
