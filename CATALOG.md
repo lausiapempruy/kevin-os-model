@@ -14,6 +14,16 @@ A writing workflow for reducing generic, repetitive, inflated, and formulaic tex
 - [Evaluation cases](anti-slop-text/evals/evaluation-cases.md)
 - [Skill artwork](assets/anti-slop-text-card.svg)
 
+### [prompt-upgrade](prompt-upgrade/SKILL.md)
+
+Turns rough or underspecified prompts into clear, self-contained, ready-to-paste instructions for a wide range of tasks. Preserves user intent, adds necessary operational detail, and filters optional suggestions to avoid scope creep.
+
+- [Relevance filter](prompt-upgrade/references/relevance-filter.md)
+- [Prompt structure patterns](prompt-upgrade/references/prompt-structure.md)
+- [Examples](prompt-upgrade/references/examples.md)
+- [Evaluation cases](prompt-upgrade/evals/evaluation-cases.md)
+- [Skill artwork](prompt-upgrade/assets/prompt-upgrade-card.svg)
+
 ## Maintainer documentation
 
 - [Project structure](docs/PROJECT_STRUCTURE.md)
