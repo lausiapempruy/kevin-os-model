@@ -1,23 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160">
-  <!-- Background -->
-  <rect width="800" height="160" fill="#1e1b4b"/>
-  
-  <!-- Accent bar left -->
-  <rect x="0" y="0" width="10" height="160" fill="#818cf8"/>
-  
-  <!-- Large geometric K -->
-  <g transform="translate(48, 32)">
-    <rect width="96" height="96" rx="6" fill="#4f46e5"/>
-    <path d="M28 18 L28 78 M28 48 L72 18 M28 48 L72 78" 
-          stroke="#ffffff" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">Kevin OS Model</title>
+  <desc id="desc">An open collection of practical resources for AI models.</desc>
+  <rect width="1200" height="300" fill="#f4f1e8"/>
+  <rect width="18" height="300" fill="#ff5a36"/>
+  <g fill="#171715">
+    <rect x="66" y="54" width="142" height="142"/>
+    <path d="M104 82V168M104 125L169 82M104 125L169 168" fill="none" stroke="#f4f1e8" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter"/>
+    <text x="252" y="111" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">OPEN RESOURCE LIBRARY</text>
+    <text x="248" y="174" font-family="Arial, Helvetica, sans-serif" font-size="57" font-weight="800" letter-spacing="-2">KEVIN OS MODEL</text>
+    <text x="252" y="218" font-family="Arial, Helvetica, sans-serif" font-size="22">Instructions, workflows, and tools for working with AI.</text>
   </g>
-  
-  <!-- Decorative lines -->
-  <rect x="180" y="52" width="420" height="6" fill="#4f46e5" opacity="0.6"/>
-  <rect x="180" y="72" width="280" height="4" fill="#818cf8" opacity="0.4"/>
-  <rect x="180" y="92" width="340" height="4" fill="#6366f1" opacity="0.3"/>
-  
-  <!-- Right accent block -->
-  <rect x="720" y="40" width="48" height="80" fill="#312e81"/>
-  <rect x="736" y="56" width="16" height="48" fill="#4f46e5"/>
+  <g transform="translate(1010 46)">
+    <rect width="126" height="126" fill="none" stroke="#171715" stroke-width="2"/>
+    <path d="M0 42H126M0 84H126M42 0V126M84 0V126" stroke="#171715" stroke-width="1" opacity=".28"/>
+    <rect x="42" y="42" width="42" height="42" fill="#ff5a36"/>
+  </g>
+  <text x="1010" y="215" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#171715">BUILT IN PUBLIC</text>
+  <path d="M252 252H1136" stroke="#171715" stroke-width="2"/>
+  <text x="252" y="278" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2" fill="#56544f">CHATGPT  /  CLAUDE  /  GROK  /  MORE</text>
 </svg>
