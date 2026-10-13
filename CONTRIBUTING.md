@@ -1,40 +1,52 @@
 # Contributing
 
-## Adding a new skill
+Thanks for helping improve Kevin OS Model. Contributions can include reusable instructions, prompts, workflows, documentation, examples, compatibility notes, and fixes.
 
-1. Create a folder under `skills/` using kebab-case  
-   Example: `skills/code-reviewer/`
+## Before you start
 
-2. Add a `SKILL.md` with this structure:
+1. Search existing issues and files to avoid duplicating work.
+2. For a substantial change, open an issue first so the scope can be discussed.
+3. Keep submissions focused. One resource or related change per pull request is easier to review.
+4. Only submit content you wrote or are allowed to redistribute. Do not include private information, API keys, access tokens, or other secrets.
 
-```markdown
----
-name: skill-name
-description: One clear sentence about what it does and when to use it.
----
+## Adding a resource
 
-# Skill Name
+The repository is currently being reorganized, so there is no required skill directory or skill-specific template yet. When proposing a new resource, include a clear folder name and a short README or equivalent documentation describing:
 
-## What it does
+- **Purpose:** the concrete problem it helps solve.
+- **Intended use:** when someone should and should not use it.
+- **Compatibility:** the models, products, or formats it targets.
+- **Setup:** where the content goes and how to use it.
+- **Examples:** realistic inputs and expected behavior where useful.
+- **Limitations:** known gaps, trade-offs, or untested claims.
+- **License and attribution:** sources and rights for included material.
 
-## When to activate
+Do not label something “tested,” “universal,” or “compatible” without evidence. If testing is limited, say so.
 
-## Instructions for the model
+## Quality bar
 
-(the actual system prompt / rules)
-```
+- Prefer direct, specific instructions over vague persona claims.
+- Make the resource understandable without requiring the reader to guess missing context.
+- Avoid unnecessary dependencies and provider-specific assumptions.
+- Keep examples safe, legal, and free of real credentials or personal data.
+- Use consistent Markdown, descriptive filenames, and relative links where practical.
+- Explain meaningful behavior changes in the pull request.
+- Check spelling, links, file paths, and formatting before submitting.
 
-3. Optional: add supporting files inside the skill folder (examples, checklists, references).
+## Pull request checklist
 
-4. Update the skill table in the root `README.md`.
+Before requesting review, confirm that:
 
-5. Open a pull request. Describe the skill and why it is useful.
+- [ ] The change has a clear purpose and reasonable scope.
+- [ ] New content includes usage and compatibility notes.
+- [ ] All included material may legally be redistributed.
+- [ ] No secrets or personal data are present.
+- [ ] Links and paths work.
+- [ ] Claims about model behavior or testing are accurate.
+- [ ] The pull request explains what changed and why.
 
-## Rules
+## Review process
 
-- Be specific. Vague “helpful AI” skills will be rejected.
-- Prefer short, enforceable rules over long essays.
-- If the skill includes visual or design guidance, follow the same anti-slop standards used in this repository.
-- Language can be Indonesian or English — stay consistent inside one skill.
+Maintainers may ask for revisions, suggest a narrower scope, or decline a contribution that is out of scope, unsafe, difficult to maintain, or legally unclear. A pull request is not accepted until it has been reviewed and merged.
 
-That’s all.
+By submitting a contribution, you agree that your contribution will be distributed under the repository's MIT License unless you and the maintainers explicitly agree otherwise.
