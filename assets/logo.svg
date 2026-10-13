@@ -1,21 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <defs>
-    <linearGradient id="kGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4f46e5"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
-    </linearGradient>
-  </defs>
-  
-  <!-- Sharp square background instead of soft circle -->
-  <rect x="12" y="12" width="176" height="176" rx="8" fill="url(#kGrad)"/>
-  
-  <!-- Inner border for depth -->
-  <rect x="24" y="24" width="152" height="152" rx="4" fill="none" stroke="white" stroke-width="2" opacity="0.25"/>
-  
-  <!-- Bold K letter – geometric, high contrast -->
-  <path d="M58 48 L58 152 M58 100 L118 48 M58 100 L118 152" 
-        stroke="white" stroke-width="14" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
-  
-  <!-- Accent mark (small sharp triangle) -->
-  <polygon points="145,55 160,70 145,85" fill="white" opacity="0.9"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="title">
+  <title id="title">Kevin OS Model mark</title>
+  <rect x="8" y="8" width="184" height="184" fill="#171715"/>
+  <path d="M60 45V155M60 100L137 45M60 100L137 155" fill="none" stroke="#f4f1e8" stroke-width="15" stroke-linecap="square" stroke-linejoin="miter"/>
+  <rect x="145" y="45" width="14" height="14" fill="#ff5a36"/>
+  <rect x="145" y="141" width="14" height="14" fill="#ff5a36"/>
 </svg>
