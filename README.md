@@ -24,34 +24,38 @@ A practical writing workflow for reducing generic, repetitive, inflated, and for
   <img src="assets/anti-slop-text-card.svg" alt="anti-slop-text skill card: specific, honest, natural writing" width="100%">
 </p>
 
+### [prompt-upgrade](prompt-upgrade/SKILL.md)
+
+Turn rough prompts into complete, ready-to-paste instructions without losing the user's intent or quietly adding unrelated features.
+
+<p align="center">
+  <img src="prompt-upgrade/assets/prompt-upgrade-card.svg" alt="prompt-upgrade skill card: rough prompts become clear, actionable instructions" width="100%">
+</p>
+
 | Resource | What it is |
 |---|---|
-| [Main skill](anti-slop-text/SKILL.md) | Main instructions and workflow |
-| [Patterns reference](anti-slop-text/references/patterns.md) | Common weak-writing patterns and how to diagnose them |
-| [Review checklist](anti-slop-text/references/review-checklist.md) | A practical editorial pass |
-| [Examples](anti-slop-text/references/examples.md) | Before-and-after examples |
-| [Evaluation cases](anti-slop-text/evals/evaluation-cases.md) | Repeatable cases for checking behavior |
+| [anti-slop-text](anti-slop-text/SKILL.md) | Improve writing quality while preserving meaning and voice |
+| [prompt-upgrade](prompt-upgrade/SKILL.md) | Upgrade prompts for websites, code, writing, research, design, and more |
+| [Resource catalog](CATALOG.md) | Browse skills and supporting references |
 
 ## Use a resource with your AI
 
-The skill uses a Markdown `SKILL.md` structure inspired by the Agent Skills format.
+Resources use a Markdown `SKILL.md` structure inspired by the Agent Skills format.
 
 1. Open the skill's `SKILL.md`.
 2. If your AI product supports skills, follow that product's own installation instructions.
 3. If it does not support native skills, provide the file as context or adapt it to custom instructions when available.
-4. Try the evaluation cases on your chosen model and note what works or fails.
+4. Try the resource's evaluation cases on your chosen model and note what works or fails.
 
-A folder containing `SKILL.md` is **not** automatically installable in every AI chat app. Plain Markdown makes the instructions portable; it does not guarantee identical behavior across products.
+A folder containing `SKILL.md` is **not** automatically installable in every AI chat app. Plain Markdown makes instructions portable; it does not guarantee identical behavior across products.
 
 ## Repository map
 
 ```text
 .
 ├── assets/                  # Project logo, favicon, banners, skill artwork
-├── anti-slop-text/
-│   ├── SKILL.md             # Main skill instructions
-│   ├── references/          # Supporting editorial guidance
-│   └── evals/               # Repeatable evaluation cases
+├── anti-slop-text/          # Writing-quality skill
+├── prompt-upgrade/          # Prompt-improvement skill
 ├── docs/
 │   ├── PROJECT_STRUCTURE.md
 │   ├── COMPATIBILITY.md
@@ -67,7 +71,7 @@ A folder containing `SKILL.md` is **not** automatically installable in every AI 
 
 ## Quality over claims
 
-- No promises of “100% anti-slop,” guaranteed detector results, or perfect performance on every model.
+- No promises of perfect results, guaranteed detector outcomes, or identical performance on every model.
 - No invented sources, benchmark results, capabilities, or compatibility claims.
 - Prefer focused workflows, concrete examples, and repeatable evaluations over extra files that add no practical value.
 - Record which model, version, method, and date were actually tested.
