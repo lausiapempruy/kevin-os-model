@@ -1,8 +1,8 @@
 # Project structure
 
-This repository is a growing collection of reusable resources for AI models and tools. Its structure may evolve as real resources are added.
+This repository is a growing, provider-agnostic collection of reusable instructions, workflows, and resources for AI models and tools.
 
-## Current top-level files
+## Top-level files
 
 - `README.md` — project overview and starting point.
 - `CONTRIBUTING.md` — contribution expectations and review checklist.
@@ -11,13 +11,19 @@ This repository is a growing collection of reusable resources for AI models and 
 - `SUPPORT.md` — usage help and issue-reporting guidance.
 - `LICENSE` — default license for repository content, subject to file-specific notices.
 - `assets/` — project identity artwork.
+- `anti-slop-text/` — first reusable writing skill.
 
-## Future resources
+## Skill layout
 
-New resources should be grouped by a clear purpose and documented locally. Avoid creating placeholder directories that imply a resource exists before it is ready.
+A skill can contain:
 
-A resource may include its own documentation, examples, references, compatibility information, and license notes. Keep unrelated resources independent where practical so readers can use one without needing the entire repository.
+- `SKILL.md` — main metadata and workflow instructions.
+- `references/` — focused reference material loaded when useful.
+- `evals/` — repeatable test cases for checking expected behavior.
+- `scripts/` or `assets/` — optional files when a resource genuinely needs them.
+
+Keep each skill focused. Do not add placeholder directories or files just to make a skill look larger.
 
 ## Compatibility
 
-Resources may target different providers, models, and product features. Document the tested environment and avoid implying that instructions behave identically everywhere.
+The project aims to keep resources readable and usable across models wherever possible. A model that can read Markdown can attempt to follow a skill's instructions, but that does not mean every product supports native skill installation or follows the instructions identically. State what has actually been tested and document known limitations. Never promise universal compatibility without defined and repeatable testing.
